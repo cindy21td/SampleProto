@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package org.example;
+
+import "google/protobuf/timestamp.proto";
+
+message Schedule {
+    // Timestamps
+    google.protobuf.Timestamp start = 4;
+    google.protobuf.Timestamp end = 5;
+}
